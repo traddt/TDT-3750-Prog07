@@ -1,0 +1,159 @@
+body {
+	margin: 0px 0px 8px 0px;
+	font-size: 12pt;
+	font-family: Times New Roman;
+	background-color: #808080;
+	color: #ffffff;
+	height: 100%;
+}
+
+#loader {
+	position: absolute;
+	top: 0px;
+	background-color: #808080;
+	z-index: 600;
+	width: 100vw;
+	height: 100vh;
+}
+
+header {
+	text-align: center;
+}
+
+div {
+	display: block;
+}
+
+#wrapper {
+	display: flex;
+	justify-content: left;
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-top: 3px solid #000000;
+	border-bottom: 3px solid #000000;
+}
+
+#left_side {
+	position: relative;
+	width: 20%;
+	background-color: #f56600;
+	border-right: 1px solid #000000;
+	overflow: hidden;
+
+}
+
+#right_side {
+	position: relative;
+	width: 20%;
+	background-color: #522d80;
+	color: #ffffff;
+	border-left: 1px solid #000000;
+	overflow: hidden;
+
+}
+
+#content_area {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0% 2%;
+}
+
+#main-footer {
+	position:relative;
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	font-style: italic;
+	border-bottom: 3px solid #000000;
+}
+
+iframe {
+	position: relative;
+	width: 100%;
+	display: block;
+	margin-bottom: -100%;
+	padding-bottom: 100%;
+}
+
+#frame2 {
+	height: 200px;
+}
+
+h1 {
+	font: 20pt Verdana;
+	font-weight: bold;
+	line-height: 20pt;
+}
+
+h2 {
+	font: 18pt Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 18pt;
+}
+
+h3 {
+	font: 15pt Arial;
+	font-weight: bold;
+	line-height: 15pt;
+}
+
+h6 {
+	font: 12pt Times New Roman;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 12pt;
+}
+
+table {
+	width: 100%;
+	overflow: scroll;
+}
+
+tbody {
+	height: calc(100% - 98px);
+}
+
+th {
+	background-color: #404040;
+}
+
+th:hover {
+	background-color: #c0c0c0;
+	color: #000000;
+	cursor: pointer;
+}
+
+th:active {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+td {
+	background-color: #606060;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#right_side p {
+  font-size: 12pt;
+  margin: 5% 5% 0% 5%;
+}
+
+#topper {
+	text-align: center;
+	position: relative;
+}
+
+#num {
+	text-align: right;
+}
+
+#class-content {
+	margin: 8px;
+}

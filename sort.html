@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang=”en”>
+	<head>
+		<title>Array Sorting Example</title>
+		<! CSS Sheet. 'Nuff said.>
+		<link rel="stylesheet" href="/src/style.css">
+		<! JQuery is used for loading various objects>
+		<script src="//code.jquery.com/jquery.min.js"></script>
+		<! This is the main javascript file for most sites>
+		<script type="text/javascript" src="/src/main.js"></script>
+		<script type="text/javascript" src="sort.js"></script>
+	</head>
+
+	<body>
+		<div id="navbar">
+		</div>
+		<! Dummy object to hold the navbar>
+		<div id="spacer">
+		</div>
+		
+		<! Used to prevent the website from displaying anything until it is fully loaded>
+		<div id="loadholder">
+			<div id="loader">
+			</div>
+		</div>
+		
+		<div id="class-content">
+			<h1>Sorting String Arrays</h1>
+			<p>Enter two or more names in the field below,
+				and the sorted list of names will appear in the
+				textarea.
+			</p>
+			<form name="theform">
+				Name:
+				<input type="text" name="newname" size="20" onkeydown="checkSort();">
+				<input type="button" name="addname" value="Add" onclick="SortNames();">
+				<br>
+			
+				<h2>Sorted Names</h2>
+				<textarea cols="60" rows="10" name="sorted">The sorted names will appear here.</textarea>
+			</form>
+		</div>
+	</body>
+</html>
+
+
